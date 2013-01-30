@@ -1,0 +1,98 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="649" measuredH="595" mockupW="649" mockupH="595">
+  <controls>
+    <control controlID="129" controlTypeID="__group__" x="0" y="0" w="649" h="595" measuredW="649" measuredH="595" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="649" h="595" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="129">
+          <controlProperties>
+            <text>Vote%20Page</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="334" y="88" w="-1" h="-1" measuredW="94" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hello%20Felix%20Zhao</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::FieldSet" x="26" y="262" w="608" h="153" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Your%20WorkItems</text>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::DataGrid" x="39" y="288" w="553" h="112" measuredW="551" measuredH="111" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>WorkItemNumber%20%5E%2C%20WorkItemName%20%5Ev%2C%20Discription%20v%2C%20Score%20%5E%2C%20Chose%20%5Ev%0A1%20%2C%20Web%20Portal%20Design%2C%20Draw%20Portal%20Design%20Pictures%2C%2036%2C%20%5Bx%5D%0A2%2C%20Vote%20Develop%2C%20MongoDB%2C55%2C%20%5B%5D%0A3%2C%20Back%20End%20Develop%2C%20Django%2C%2060%2C%20%5Bx%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::FieldSet" x="26" y="437" w="608" h="60" measuredW="200" measuredH="170" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Members</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Label" x="39" y="461" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Felix%20Zhao</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Label" x="127" y="461" w="-1" h="-1" measuredW="78" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Yu%20Zhi%20Qiang</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Label" x="232" y="461" w="-1" h="-1" measuredW="79" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Shi%20Hua%20Yang</text>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::SubTitle" x="26" y="85" w="-1" h="-1" measuredW="49" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Vote</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="90" y="88" w="-1" h="-1" measuredW="169" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Project%20Name%20%3A%20Vote%20Develop</text>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="555" y="88" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>60%20%27s%20%3A%20Left</text>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Button" x="471" y="512" w="-1" h="-1" measuredW="75" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Continue</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Button" x="578" y="512" w="-1" h="-1" measuredW="48" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quit</text>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::Title" x="26" y="124" w="-1" h="-1" measuredW="333" measuredH="43" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Vote%20in%20Progress%20...</text>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::FieldSet" x="26" y="167" w="610" h="87" measuredW="200" measuredH="170" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>WorkItem%20You%20Chose%20In%20This%20Round%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::DataGrid" x="39" y="185" w="553" h="51" measuredW="399" measuredH="51" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>WorkItemName%20%5E%2C%20Score%20%5Ev%2C%20ChooseCount%2C%20NextRoundScore%20v%0AWeb%20Portal%20Design%2C%2036%2C%203%2C%2023</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::StickyNote" x="359" y="461" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20Vote%20End%2C%20%0Athis%20button%20will%20be%20finish.</text>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::StickyNote" x="365" y="97" w="139" h="88" measuredW="109" measuredH="123" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>if%20Vote%20End%2C%0Athis%20title%20will%20be%0A%22%20Vote%20Finished.%20%22</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
