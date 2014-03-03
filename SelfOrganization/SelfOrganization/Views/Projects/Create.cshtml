@@ -1,0 +1,60 @@
+﻿@model SelfOrganization.Models.Project
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Project</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProjectName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ProjectName)
+            @Html.ValidationMessageFor(model => model.ProjectName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProjectDescription)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ProjectDescription)
+            @Html.ValidationMessageFor(model => model.ProjectDescription)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.parent.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("UserList","ALL")
+            @Html.ValidationMessageFor(model => model.parent.UserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Status)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Status)
+            @Html.ValidationMessageFor(model => model.Status)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
