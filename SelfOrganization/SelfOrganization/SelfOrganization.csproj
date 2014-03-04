@@ -189,17 +189,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201403030900357_Project_Models.cs" />
-    <Compile Include="Migrations\201403030900357_Project_Models.Designer.cs">
-      <DependentUpon>201403030900357_Project_Models.cs</DependentUpon>
+    <Compile Include="Migrations\201403040312105_Init_Project.cs" />
+    <Compile Include="Migrations\201403040312105_Init_Project.Designer.cs">
+      <DependentUpon>201403040312105_Init_Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201403040317379_Migrate_User.cs" />
+    <Compile Include="Migrations\201403040317379_Migrate_User.Designer.cs">
+      <DependentUpon>201403040317379_Migrate_User.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\MyProject.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MyProject.dbml</DependentUpon>
-    </Compile>
     <Compile Include="Models\ProjectModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -260,11 +259,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Models\MyProject.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>MyProject.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -329,15 +323,15 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201403030900357_Project_Models.resx">
-      <DependentUpon>201403030900357_Project_Models.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="Models\MyProject.dbml.layout">
-      <DependentUpon>MyProject.dbml</DependentUpon>
-    </None>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <EmbeddedResource Include="Migrations\201403040312105_Init_Project.resx">
+      <DependentUpon>201403040312105_Init_Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403040317379_Migrate_User.resx">
+      <DependentUpon>201403040317379_Migrate_User.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
