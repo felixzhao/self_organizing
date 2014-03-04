@@ -83,3 +83,5 @@ C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\bin\zh-Han
 C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\obj\Debug\SelfOrg_2.csprojResolveAssemblyReference.cache
 C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\obj\Debug\SelfOrg_2.dll
 C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\obj\Debug\SelfOrg_2.pdb
+C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\obj\Debug\SelfOrg_2.Migrations.Init_Project_Models.resources
+C:\Users\zhaoqua\Documents\GitHub\self_organizing\SelfOrg_2\SelfOrg_2\obj\Debug\SelfOrg_2.csproj.GenerateResource.Cache
